@@ -63,9 +63,9 @@ function makePersonObject(id, name, email) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(object) {
+function getName(person) {
   /* code here */
-  return `Hello, my name is ${object.name}`;
+  return `Hello, my name is ${person.name}`;
 }
 
 /**
@@ -304,9 +304,9 @@ return newarray;
  *   return num * 2
  * }
 */
-const sum = null; // code here!
-const addFive = null; // code here!
-const argTimesTwo = null; // code here!
+const sum = null; // const sum = (a, b) => a + b;
+const addFive = null; // const addFive = num => num + 5;
+const argTimesTwo = null; // const argTimesTwo = num => num*2;
 
 /**
  * ### Challenge `carMaker`
